@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components {
+  .code {
+    @apply font-mono text-gray-700 rounded-full bg-gray-300 w-fit px-2 py-0.5 -my-0.5 text-sm h-fit;
+  }
+}
